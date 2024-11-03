@@ -1,0 +1,12 @@
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Inventario.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Inventario.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

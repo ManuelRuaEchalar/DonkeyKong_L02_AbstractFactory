@@ -1,30 +1,38 @@
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\DonkeyKong_L02GameMode.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\DonkeyKong_L02GameMode.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\DonkeyKong_L02GameMode.generated.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\DonkeyKong_L02Character.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\DonkeyKong_L02GameMode.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\DonkeyKong_L02Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\DonkeyKong_L02Character.generated.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\ObstaculoMuro.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\Obstaculo.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Obstaculo.generated.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\ObstaculoMuro.generated.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\Capsula.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Capsula.generated.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\componentePlataforma.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\componentePlataforma.generated.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\Barril.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Barril.generated.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\Esfera.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Esfera.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\DonkeyKong_L02Character.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\ObstaculoMuro.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Obstaculo.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Obstaculo.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\ObstaculoMuro.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Capsula.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Capsula.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\componentePlataforma.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\componentePlataforma.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Barril.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Barril.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Esfera.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Esfera.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\FabricaEstorbos.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\EstorboEspinas.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\EstorboEspinas.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\EstorboTrampas.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\EstorboTrampas.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\FabricaEstorbos.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\FabricaClasica.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\FabricaClasica.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
@@ -50,3 +58,19 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Disparador.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Disparador.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\TrampaFuego.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\TrampaFuego.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\EspinasAfiladas.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\EspinasAfiladas.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Muro.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Muro.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\MuroElectrico.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\MuroElectrico.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\MuroEnvenenado.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\MuroEnvenenado.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\MuroLadrillo.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\MuroLadrillo.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Inventario.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Inventario.generated.h

@@ -1,7 +1,8 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+ï»¿// Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "DonkeyKong_L02GameMode.h"
 #include "DonkeyKong_L02Character.h"
+#include "Facade.h"
 #include "UObject/ConstructorHelpers.h"
 #include "ObstaculoMuro.h"
 #include "Capsula.h"
@@ -30,21 +31,33 @@ ADonkeyKong_L02GameMode::ADonkeyKong_L02GameMode()
 	if (PlayerPawnBPClass.Class != nullptr)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
-		
+
 	}
 }
 
 void ADonkeyKong_L02GameMode::BeginPlay()
 {
-    Super::BeginPlay();
+	Super::BeginPlay();
 
-	
+
 	ACharacter* MyCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 	if (MyCharacter)
 	{
-		// Establecer la nueva posición
+		// Establecer la nueva posiciï¿½n
 		FVector NewLocation = FVector(1160.0f, 1300.0f, 5500.0f);
 		MyCharacter->SetActorLocation(NewLocation);
+	}
+
+	// Spawn the Facade
+	FTransform facadeLocation;
+	AFacade* facade = GetWorld()->SpawnActor<AFacade>(AFacade::StaticClass(), facadeLocation);
+
+	// Use Facade to create objects
+	if (facade)
+	{
+		facade->CreateDisparador();
+		facade->CreateObstaculos();
+		facade->CreateEnemy();
 	}
 
 	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Yellow, TEXT("Creando plataforma"));
@@ -60,7 +73,7 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 	}*/
 
 	for (int32 i = 0; i < 5; ++i) {
-		aComponentesPlataformaMoviles.Add(FMath::RandRange(2, 7)); // Genera un número entre 2 y 7
+		aComponentesPlataformaMoviles.Add(FMath::RandRange(2, 7)); // Genera un nï¿½mero entre 2 y 7
 	}
 
 	FVector posicionInicial = FVector(1160.0f, -1300.0f, 800.f);
@@ -72,21 +85,21 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 	float incrementoAltoEntrePisos = 500.0f;
 	float incrementoInicioPiso = 100.0f;
 	float incrementoAnchoComponentePlataforma = -300.0f;
-	
+
 	int numeroPisoComponentePlataformaMovil = 0;
 	int numeroComponentePlataformaMovil = 4;
-	
-	
-	//npp -> Número de pisos por plataforma
+
+
+	//npp -> Nï¿½mero de pisos por plataforma
 	for (int npp = 0; npp < 5; npp++) {
 		rotacionInicial.Roll = rotacionInicial.Roll * -1;
 		incrementoInicioPiso = incrementoInicioPiso * -1;
-		incrementoAnchoComponentePlataforma = incrementoAnchoComponentePlataforma * -1;	
+		incrementoAnchoComponentePlataforma = incrementoAnchoComponentePlataforma * -1;
 		SpawnLocationCP.SetRotation(FQuat(rotacionInicial));
 		SpawnLocationCP.SetLocation(FVector(posicionInicial.X, posicionInicial.Y, posicionInicial.Z));
-		
+
 		for (int ncp = 0; ncp < 10; ncp++) {
-			
+
 			if (ncp != (aComponentesPlataformaMoviles[npp] - 1) && ncp != (aComponentesPlataformaMoviles[npp] + 1)) {
 				AcomponentePlataforma* cp = GetWorld()->SpawnActor<AcomponentePlataforma>(AcomponentePlataforma::StaticClass(), SpawnLocationCP);
 				if (ncp == aComponentesPlataformaMoviles[npp]) {
@@ -100,11 +113,11 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 			if (ncp < 9) {
 				posicionInicial.Y = posicionInicial.Y + incrementoAnchoComponentePlataforma;
 			}
-			
+
 			SpawnLocationCP.SetLocation(FVector(posicionInicial.X, posicionInicial.Y, posicionInicial.Z));
 
 		}
-		
+
 		posicionInicial.Z = posicionInicial.Z + incrementoAltoEntrePisos;
 		posicionInicial.Y = posicionInicial.Y + incrementoInicioPiso;
 	}
@@ -115,29 +128,27 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 	SpawnLocationDisparador.SetRotation(FQuat(rotacionDisparador));
 	SpawnLocationDisparador.SetLocation(posicionDisparador);
 
-	ADisparador* disparador01 = GetWorld()->SpawnActor<ADisparador>(ADisparador::StaticClass(), SpawnLocationDisparador);
-
 	FVector posicionFabrica = FVector(1160.0f, 0.0f, 1500.f);
 	FRotator rotacionFabrica = FRotator(0.0f, 0.0f, 10.0f);
 	FTransform SpawnLocationFabrica;
 	SpawnLocationFabrica.SetRotation(FQuat(rotacionFabrica));
 	SpawnLocationFabrica.SetLocation(posicionFabrica);
 	AFabricaClasica* fabrica = GetWorld()->SpawnActor<AFabricaClasica>(AFabricaClasica::StaticClass(), SpawnLocationDisparador);
-	
+
 	IEstorboEspinas* tempEspinas = fabrica->CrearEspina();
 	IEstorboTrampas* tempTrampa = fabrica->CrearTrampa();
 
 	// Verifica que el casting fue exitoso
 	if (tempEspinas) {
-		// Lógica específica para espinas
-		tempEspinas->CausarDano(); // Ejemplo de uso de una función específica
+		// Lï¿½gica especï¿½fica para espinas
+		tempEspinas->CausarDano(); // Ejemplo de uso de una funciï¿½n especï¿½fica
 	}
 
 	if (tempTrampa) {
-		// Lógica específica para la trampa de fuego
-		tempTrampa->ActivarTrampa(); // Ejemplo de uso de una función específica
+		// Lï¿½gica especï¿½fica para la trampa de fuego
+		tempTrampa->ActivarTrampa(); // Ejemplo de uso de una funciï¿½n especï¿½fica
 	}
-	
+
 	FVector posicionMuro = FVector(1160.0f, 0.0f, 200.f);
 	FRotator rotacionMuro = FRotator(0.0f, 0.0f, 10.0f);
 	FTransform SpawnLocationMuro;
@@ -160,9 +171,9 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 	AMuroLadrillo* me03 = GetWorld()->SpawnActor<AMuroLadrillo>(AMuroLadrillo::StaticClass(), SpawnLocationMuro);
 	aMuros.Add(me03);
 
-	
+
 	GetWorld()->GetTimerManager().SetTimer(SpawnBarrilTimerHandle, this, &ADonkeyKong_L02GameMode::SpawnBarril, 3.0f, true);
-	
+
 	//Crear 4 Inventario
 	for (int i = 0; i <= 4; i++)
 	{
@@ -172,7 +183,7 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 			//If the Spawn succeeds, set the Spawned inventory to the local one
 			//and log the success string
 			inventario = inventarioSpawneado;
-			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("%s ha sido creado"), *inventario->GetName()));				
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("%s ha sido creado"), *inventario->GetName()));
 		}
 	}
 }

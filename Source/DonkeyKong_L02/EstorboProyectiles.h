@@ -23,5 +23,4 @@ class DONKEYKONG_L02_API IEstorboProyectiles
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	virtual void Lanzar() = 0;
-	virtual ~IEstorboProyectiles() = default;
 };

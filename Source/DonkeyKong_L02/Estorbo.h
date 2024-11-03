@@ -23,5 +23,4 @@ class DONKEYKONG_L02_API IEstorbo
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	virtual void ActivarEfecto() = 0; // Método para activar el efecto específico del estorbo
-	virtual ~IEstorbo() = default;
 };

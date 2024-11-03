@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DONKEYKONG_L02_Disparador_generated_h
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_SPARSE_DATA
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_INCLASS_NO_PURE_DECLS \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_SPARSE_DATA
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADisparador(); \
 	friend struct Z_Construct_UClass_ADisparador_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ADisparador)
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_INCLASS \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesADisparador(); \
 	friend struct Z_Construct_UClass_ADisparador_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ADisparador)
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_STANDARD_CONSTRUCTORS \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ADisparador(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADisparador) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_ENHANCED_CONSTRUCTORS \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADisparador(ADisparador&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADisparador)
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_PRIVATE_PROPERTY_OFFSET
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_11_PROLOG
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_GENERATED_BODY_LEGACY \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_PRIVATE_PROPERTY_OFFSET
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_11_PROLOG
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_PRIVATE_PROPERTY_OFFSET \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_SPARSE_DATA \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_INCLASS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_STANDARD_CONSTRUCTORS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_PRIVATE_PROPERTY_OFFSET \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_SPARSE_DATA \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_INCLASS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_GENERATED_BODY \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_PRIVATE_PROPERTY_OFFSET \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_SPARSE_DATA \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_INCLASS_NO_PURE_DECLS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h_14_ENHANCED_CONSTRUCTORS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_PRIVATE_PROPERTY_OFFSET \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_SPARSE_DATA \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_INCLASS_NO_PURE_DECLS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> DONKEYKONG_L02_API UClass* StaticClass<class ADisparador>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID DonkeyKong_L02_master_Source_DonkeyKong_L02_Disparador_h
+#define CURRENT_FILE_ID DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Disparador_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

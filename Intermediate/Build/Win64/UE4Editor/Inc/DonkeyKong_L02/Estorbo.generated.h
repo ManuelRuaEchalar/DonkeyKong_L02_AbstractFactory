@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DONKEYKONG_L02_Estorbo_generated_h
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_SPARSE_DATA
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_STANDARD_CONSTRUCTORS \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_SPARSE_DATA
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	DONKEYKONG_L02_API UEstorbo(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEstorbo) \
@@ -29,7 +29,7 @@ private: \
 public:
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_ENHANCED_CONSTRUCTORS \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	DONKEYKONG_L02_API UEstorbo(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -42,7 +42,7 @@ public: \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEstorbo)
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_UINTERFACE_BODY() \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUEstorbo(); \
 	friend struct Z_Construct_UClass_UEstorbo_Statics; \
@@ -51,22 +51,22 @@ public: \
 	DECLARE_SERIALIZER(UEstorbo)
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_BODY_LEGACY \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_UINTERFACE_BODY() \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_STANDARD_CONSTRUCTORS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_UINTERFACE_BODY() \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_BODY \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_UINTERFACE_BODY() \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_ENHANCED_CONSTRUCTORS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_GENERATED_UINTERFACE_BODY() \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IEstorbo() {} \
 public: \
@@ -75,7 +75,7 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE \
 protected: \
 	virtual ~IEstorbo() {} \
 public: \
@@ -84,23 +84,23 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_10_PROLOG
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_21_GENERATED_BODY_LEGACY \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_10_PROLOG
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_SPARSE_DATA \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_SPARSE_DATA \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_21_GENERATED_BODY \
+#define DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_SPARSE_DATA \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_SPARSE_DATA \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -108,7 +108,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> DONKEYKONG_L02_API UClass* StaticClass<class UEstorbo>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID DonkeyKong_L02_master_Source_DonkeyKong_L02_Estorbo_h
+#define CURRENT_FILE_ID DonkeyKong_L02_AbstractFactory_Source_DonkeyKong_L02_Estorbo_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

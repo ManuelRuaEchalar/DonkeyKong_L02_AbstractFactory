@@ -1,6 +1,6 @@
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
-D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\Projectile.h
-D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Projectile.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Projectile.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Projectile.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
