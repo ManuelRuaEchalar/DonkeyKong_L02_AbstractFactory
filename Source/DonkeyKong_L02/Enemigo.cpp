@@ -22,7 +22,6 @@ AEnemigo::AEnemigo()
 	if (MeshAsset.Succeeded())
 	{
 		MeshComponent->SetStaticMesh(MeshAsset.Object);
-		GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Yellow, TEXT("MESH ENEMIGO ASIGNADA"));
 	}
 }
 

@@ -13,6 +13,14 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\DonkeyKong_L02Character.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Facade.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Facade.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Enemigo.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Enemigo.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\EnemigoDecoradorCircular.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\EnemigoDecorador.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\EnemigoDecorador.generated.h
+C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\EnemigoDecoradorCircular.generated.h
 C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\ObstaculoMuro.h
 C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Source\DonkeyKong_L02\Obstaculo.h
 C:\Users\jruae\Documents\Unreal Projects\DonkeyKong_L02_AbstractFactory\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Obstaculo.generated.h

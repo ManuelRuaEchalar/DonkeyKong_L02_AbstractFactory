@@ -32,11 +32,11 @@ void AFabricaClasica::Tick(float DeltaTime)
 }
 
 IEstorboEspinas* AFabricaClasica::CrearEspina() {
-    // Obtén el puntero al World
+    // Obtï¿½n el puntero al World
     UWorld* World = GetWorld();
     if (!World) return nullptr;
 
-    // Configuración de ubicación y rotación
+    // Configuraciï¿½n de ubicaciï¿½n y rotaciï¿½n
     FVector SpawnLocation = FVector(0.0f, 0.0f, 100.0f);
     FRotator SpawnRotation = FRotator(0.0f, 90.0f, 0.0f);
 
@@ -48,11 +48,11 @@ IEstorboEspinas* AFabricaClasica::CrearEspina() {
 }
 
 IEstorboTrampas* AFabricaClasica::CrearTrampa() {
-    // Obtén el puntero al World
+    // Obtï¿½n el puntero al World
     UWorld* World = GetWorld();
     if (!World) return nullptr;
 
-    // Configuración de ubicación y rotación
+    // Configuraciï¿½n de ubicaciï¿½n y rotaciï¿½n
     FVector SpawnLocation = FVector(0.0f, 0.0f, 100.0f);
     FRotator SpawnRotation = FRotator(0.0f, 90.0f, 0.0f);
 

@@ -3,6 +3,8 @@
 #include "DonkeyKong_L02GameMode.h"
 #include "DonkeyKong_L02Character.h"
 #include "Facade.h"
+#include "Enemigo.h"
+#include "EnemigoDecoradorCircular.h"
 #include "UObject/ConstructorHelpers.h"
 #include "ObstaculoMuro.h"
 #include "Capsula.h"
@@ -59,6 +61,16 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 		facade->CreateObstaculos();
 		facade->CreateEnemy();
 	}
+
+	FTransform SpawnLocationEnemigo;
+	SpawnLocationEnemigo.SetLocation(FVector(1200.0f, 1350.0f, 5650.0f));
+	AEnemigo* enemy2 = GetWorld()->SpawnActor<AEnemigo>(AEnemigo::StaticClass(), SpawnLocationEnemigo);
+
+	FTransform SpawnLocationDecorador;
+	SpawnLocationDecorador.SetLocation(FVector(1200.0f, 1350.0f, 5850.0f));
+	AEnemigoDecoradorCircular* decorador = GetWorld()->SpawnActor<AEnemigoDecoradorCircular>(AEnemigoDecoradorCircular::StaticClass(), SpawnLocationDecorador);
+	decorador->Enemigo = enemy2;
+	decorador->Vigilar();
 
 	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Yellow, TEXT("Creando plataforma"));
 	// Spawn an instance of the AMyFirstActor class at the
